@@ -11,6 +11,11 @@ Add this to your plugins section in your project.clj
 [camechis/deploy-uberjar "0.2.0"]
 ```
 
+Set uberjar-name 
+```
+:uberjar-name "your-standalone.jar"
+```
+
 The following will deploy the uberjar to the release repository
 
 ```
